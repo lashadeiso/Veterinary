@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <title>Veterinary clinic</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section-1">
+        <h1>Animals Registration</h1>
+        <form class="form-wrapper">
+          <div class="form-control">
+            <label>Animal name</label>
+            <input type="text" class="animal-name" />
+          </div>
+          <div class="form-control">
+            <label>Animal age</label>
+            <input type="number" class="animal-age" />
+          </div>
+          <div class="form-control">
+            <label>IMG Url</label>
+            <input type="text" class="img-url" />
+          </div>
+          <div class="form-control">
+            <label>Animal gender</label>
+            <div class="gender-and-button">
+              <div class="gender-control">
+                <div class="radio-control">
+                  <input
+                    type="radio"
+                    class="male"
+                    name="gender"
+                    value="male"
+                    checked
+                  />
+                  <label>Male</label>
+                </div>
+                <div class="radio-control">
+                  <input
+                    type="radio"
+                    class="female"
+                    name="gender"
+                    value="female"
+                  />
+                  <label>Female</label>
+                </div>
+              </div>
+              <div class="list">Show List</div>
+            </div>
+          </div>
+
+          <div class="form-control">
+            <label>Name of the owner</label>
+            <input type="text" class="owner-name" />
+          </div>
+          <div class="form-control">
+            <label>Mobile number of the owner</label>
+            <input type="number" class="owner-mobile" />
+          </div>
+
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+      <div class="section-2 hidden"></div>
+    </div>
+  </body>
+</html>
